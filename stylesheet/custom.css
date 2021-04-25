@@ -81,7 +81,6 @@ h1, h2, h3, h4, h5, h6 {
     screen and (min-width: 768){
     #nav-bar{
         top:0;
-        height: 2.7rem;
         width: fit-content;
         right:0;
         padding-right: 1rem;
@@ -111,6 +110,7 @@ header h1{
     width: 100%;
     font-size: 1.2rem;
     line-height: 2rem;
+    align-items: center;
 }
 
 .hd-content>div{
@@ -141,6 +141,7 @@ header h1{
 }
 
 #contact input{
+    color: var(--secondry);
     width: 100%;
     padding:1rem;
     border: none;
@@ -159,6 +160,11 @@ header h1{
     cursor: pointer;
 }
 
+#contact a{
+    text-decoration: none;
+    color: rgb(56, 56, 241);
+}
+
 footer{
     background:rgb(120,120,120, 0.6);
     bottom: 0;
@@ -168,4 +174,8 @@ footer{
 
 hr{
     border: 1px solid var(--primary2);
+}
+
+.disclaimer{
+    font-size: 0.8rem;
 }
